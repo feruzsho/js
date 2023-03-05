@@ -11,10 +11,7 @@ function App() {
   return (
     <div className="App">
       <List arr={people} setPeople={setPeople} />
-      {
-
-      }
-
+    
     </div>
   );
 }
