@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
  
- <h3>Yangi qidiruv tizim</h3>  <h1>SAFAR</h1> 
+ <h3>Yangi qidiruv tizim bulmoqda</h3>  <h1>SAFAR</h1> 
 
 
     </div>
