@@ -1,12 +1,19 @@
-import logo from './logo.svg';
+
+import {useState, Component} from 'react';
+import List from './components/List';
+import { data } from './data';
+import { users } from './data';
 import './App.css';
 
+
 function App() {
+  const [people, setPeople]=useState(data)
   return (
     <div className="App">
- 
- <h3>Yangi qidiruv tizim bulmoqda</h3>  <h1>SAFAR</h1> 
-
+ <List arr={people} setPeople={setPeople}/>
+ {
+   
+ }
 
     </div>
   );
